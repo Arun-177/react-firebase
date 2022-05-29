@@ -1,0 +1,9 @@
+.board-row {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

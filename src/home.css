@@ -1,0 +1,9 @@
+.text-center {
+    text-align: center;
+}
+
+.tictactoe-url {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}

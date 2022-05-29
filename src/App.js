@@ -1,11 +1,18 @@
+import Game from './TicTacToe/Game'
+import Home from './home'
+
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Casting Spell, Taking a little while...</h1>
-      <h1>Get in touch <a href="mailto:arunsinghguleria@gmail.com">with me</a></h1>
-    </div>
+    <Router>
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+        <Route path="/tictactoe" element={<Game />} />
+      </Routes>
+    </Router>
   );
 }
 
