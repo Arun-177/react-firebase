@@ -15,7 +15,7 @@ const NO_PHRASES = [
   "Please don't do this to me, I'm fragile",
 ];
 
-export const Valentine = () => {
+const Valentine = () => {
   const [noClicks, setNoClicks] = useState(0);
   const [isValentine, setIsValentine] = useState(false);
   const yesButtonSize = (noClicks * 20) + 16;
@@ -99,3 +99,5 @@ export const Valentine = () => {
     </div>
   );
 }
+
+export default Valentine;

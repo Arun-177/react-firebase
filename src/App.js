@@ -1,6 +1,6 @@
 import Game from './TicTacToe/Game'
 import Home from './home'
-import Valentine from './Valentine/App'
+import Valentine from './Valentine/Valentine'
 
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
